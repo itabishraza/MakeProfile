@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/profile_iconuser_flat_4"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/profile_iconuser_flat_4"
+        android:supportsRtl="true"
+        android:theme="@style/Splash_theme"
+        tools:targetApi="31">
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true"
+            android:theme="@style/Splash_theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Profile_Detail"
+            android:exported="false"
+            android:theme="@style/Theme.ProfileDetail" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MakeProfile"/>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

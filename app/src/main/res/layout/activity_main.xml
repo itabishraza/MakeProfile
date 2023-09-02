@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Make your profile"
+        android:textColor="@color/titleColor"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/background"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            >
+
+            <EditText
+                android:id="@+id/edtEnterName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="Enter Your name"
+                android:textColorHint="@color/text"
+                android:textColor="@color/text"
+                tools:ignore="Autofill"
+                android:inputType="text" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/background"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            >
+
+            <EditText
+                android:id="@+id/edtEnterSkill"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="Enter your skills"
+                android:textColorHint="@color/text"
+                android:textColor="@color/text"
+                tools:ignore="Autofill"
+                android:inputType="text" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/background"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            >
+
+            <EditText
+                android:id="@+id/edtEnterEmailId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="Enter Your Email id"
+                android:textColor="@color/text"
+                android:textColorHint="@color/text"
+                tools:ignore="Autofill" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/background"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            >
+
+            <EditText
+                android:id="@+id/edtEnterPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="Enter Your Phone Number"
+                android:textColorHint="@color/text"
+                android:textColor="@color/text"
+                tools:ignore="Autofill" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/background"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            >
+
+            <EditText
+                android:id="@+id/edtEnterLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="Enter Your Location"
+                android:textColorHint="@color/text"
+                android:textColor="@color/text" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/background"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            >
+
+            <EditText
+                android:id="@+id/edtEnterGithub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="Enter Your GitHub user name"
+                android:textColorHint="@color/text"
+                android:textColor="@color/text" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/background"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            >
+
+            <EditText
+                android:id="@+id/edtEnterLinkedin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="Enter Your Linkedin user name"
+                android:textColorHint="@color/text"
+                android:textColor="@color/text" />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/background"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            >
+
+            <EditText
+                android:id="@+id/edtEnterTwitter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="Enter Your Twitter user name "
+                android:textColorHint="@color/text"
+                android:textColor="@color/text" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/background"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            >
+
+            <EditText
+                android:id="@+id/edtEnterInstagram"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="Enter Your Instagram user name"
+                android:textColorHint="@color/text"
+                android:textColor="@color/text" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/background"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            >
+
+            <EditText
+                android:id="@+id/edtEnterLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="Enter Language you Known"
+                android:textColorHint="@color/text"
+                android:textColor="@color/text" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTransferInfo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/buttom_shape"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Get Your Profile"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

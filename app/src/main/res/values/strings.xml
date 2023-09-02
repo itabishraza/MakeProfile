@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Make Profile</string>
+    <string name="ImageIcon" translatable="false">Image Icon</string>
+    <string name="Name" translatable="false">User Name</string>
+    <string name="Bio" translatable="false">Bio</string>
+    <string name="Email" translatable="false">Email id :</string>
+    <string name="EnterEmail">Please Enter your email</string>
+    <string name="Phone">Phone No. :</string>
+    <string name="EnterPhone">please enter your phone number</string>
+    <string name="Location">Location :</string>
+    <string name="EnterLocation">Enter your location</string>
+    <string name="Github">GitHub :</string>
+    <string name="EnterGithub">Enter GitHub user name </string>
+    <string name="Linkedin">Linkedin : </string>
+    <string name="EnterLinkedin">Enter your linkedin user name </string>
+    <string name="Twitter">Twitter : </string>
+    <string name="EnterTwitter">Enter your Twitter user name</string>
+    <string name="Instagram">Instagram :</string>
+    <string name="EnterInstagram">Enter instagram user name</string>
+    <string name="Language">Language :</string>
+    <string name="EnterLanguage">Enter language you known</string>
+    <string name="ShareBtn">Share</string>
+</resources>
